@@ -21,16 +21,14 @@ RENAME: This is used to rename an object existing in the database.
 ## Query:
 ### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 
-### SQL QUERY: 
-## mysql> create table student(Roll_no int PRIMARY KEY, Name varchar(40),Age int,Address varchar(50),Phone_no int);
+### SQL QUERY: mysql> create table student(Roll_no int PRIMARY KEY, Name varchar(40),Age int,Address varchar(50),Phone_no int);
 
 ### OUTPUT:
 ![image](https://github.com/Meetha22003992/G2_DBMS/assets/119401038/1b592a39-3450-4f75-b6e8-1c1045113206)
 
 ### 2) Change the above student table by adding another attribute department
 
-### SQL QUERY: 
-## mysql> alter table student add Department varchar(60);
+### SQL QUERY: mysql> alter table student add Department varchar(60);
 
 ### OUTPUT:
 ![image](https://github.com/Meetha22003992/G2_DBMS/assets/119401038/2ec7a10e-77af-4727-9db2-e3a83b398bfa)
@@ -38,8 +36,7 @@ RENAME: This is used to rename an object existing in the database.
 
 ### 3) Drop the student table
  
-### SQL QUERY: 
-## mysql> drop table student;
+### SQL QUERY: mysql> drop table student;
 
 ### OUTPUT:
 ![image](https://github.com/Meetha22003992/G2_DBMS/assets/119401038/16399166-39a8-4673-8d8f-2778514a66a9)
@@ -47,8 +44,7 @@ RENAME: This is used to rename an object existing in the database.
 
 ### 4) Delete the student table using truncate keyword
 
-### SQL QUERY: 
-## mysql> truncate table student;
+### SQL QUERY: mysql> truncate table student;
 
 ### OUTPUT:
 ![image](https://github.com/Meetha22003992/G2_DBMS/assets/119401038/703fda6c-97da-47fe-a222-85ff123982d7)
@@ -56,8 +52,7 @@ RENAME: This is used to rename an object existing in the database.
 
 ### 5) Rename the student table to mystudent
 
-### SQL QUERY: 
-## alter table student rename to stud;
+### SQL QUERY: alter table student rename to stud;
 
 ### OUTPUT:
 ![image](https://github.com/Meetha22003992/G2_DBMS/assets/119401038/367536c7-9b80-4f93-b911-a03bbc189042)
