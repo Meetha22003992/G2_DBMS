@@ -58,3 +58,6 @@ RENAME: This is used to rename an object existing in the database.
 
 ### OUTPUT:
 ![image](https://github.com/Meetha22003992/G2_DBMS/assets/119401038/367536c7-9b80-4f93-b911-a03bbc189042)
+
+### RESULT:
+The DDL commands have been created successfully.
